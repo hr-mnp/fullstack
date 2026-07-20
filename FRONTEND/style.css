@@ -1,0 +1,78 @@
+body{
+    font-family:'Playfair Display', sans-serif; 
+    margin: 0;  height: 100vh; 
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero{
+    display: flexbox; 
+    text-align: center; 
+    align-items:center;
+}
+
+h1.hero{
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 0; 
+    line-height: 1.1px;
+}
+
+
+a.links{
+    color: #4b483f; 
+    text-decoration: none;
+}
+
+hr.links{
+    color:#80775b;
+    margin:10px 150px 0px 150px; 
+    opacity: 50%;
+}
+
+.mainInfo{
+    text-align: left; 
+    align-items:center; 
+    padding: 10px 50px 20px 50px; 
+}
+
+.mainInfo h2{
+    color: #2d2c2b; 
+    padding: 7px 0px 0px 0px; 
+    line-height: 0.2;
+}
+
+.mainInfo hr{
+    border-color:#80775b; 
+    margin:10px 0px 0px 0px;
+}
+
+.mainInfo p{
+    line-height: 20px; 
+    padding: 0px 50px 0px 50px;
+}
+
+.mainInfo h4{
+    color: #4b483f;
+    margin: 20px 50px 0px 50px; 
+    line-height: 0px;
+}
+
+.mainInfo ul{
+    margin: 10px 50px 0px 50px; 
+    line-height: 1.4;
+}
+
+.mainInfo h3{
+    color: #4b483f; 
+    margin: 20px 50px 10px 50px; 
+    line-height: 0px;
+}
+
+.certif-ul{
+    margin: 5px 50px 0px 50px; 
+    line-height: 1.4;
+}
